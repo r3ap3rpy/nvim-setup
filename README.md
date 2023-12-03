@@ -26,3 +26,5 @@ Start nvim and issue the following commands.
 ```
 
 Enjoy.
+
+[nvim](/images/nvim.JPG)
