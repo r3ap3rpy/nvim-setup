@@ -10,7 +10,7 @@ augroup cdpwd
   autocmd VimEnter * cd $DWD
   autocmd VimEnter * NERDTree
 augroup END
-
+set number
 autocmd BufEnter * silent! lcd %:p:h
 map! <S-Insert> <C-R>+
 colorscheme gruvbox
