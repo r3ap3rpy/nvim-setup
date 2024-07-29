@@ -1,6 +1,7 @@
 call plug#begin('~/AppData/Local/nvim-data/site/autoload')
   Plug 'morhetz/gruvbox'
   Plug 'preservim/nerdtree'
+  Plug 'voldikss/vim-floaterm'
   Plug 'neoclide/coc.nvim', {'branch':'release'}
   Plug 'tmhedberg/SimpylFold'
 call plug#end()
