@@ -1,13 +1,12 @@
 call plug#begin('~/.config/nvim/plugged')
   Plug 'morhetz/gruvbox'
   Plug 'voldikss/vim-floaterm'
-  Plug 'preservim/nerdtree'
-  Plug 'neoclide/coc.nvim', {'branch':'release'}
+  Plug 'preservim/nerdtree
 call plug#end()
 
 augroup cdpwd
   autocmd!
-  autocmd VimEnter * cd $DWD
+  autocmd VimEnter * cd $PWD
   autocmd VimEnter * NERDTree
 augroup END
 set number
