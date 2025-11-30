@@ -16,13 +16,12 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
 
-Then copy the **init.vim** content to the appropriate location.
+Then copy the **init.vim** content to the `~/.config/nvim/init.vim` file.
 
 Start nvim and issue the following commands.
 
 ``` bash
 :PlugInstall
-:CocInstall coc-pyright
 ```
 
 Enjoy.
