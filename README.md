@@ -18,6 +18,12 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 Then copy the **init.vim** content to the `~/.config/nvim/init.vim` file.
 
+If you are using `MacOS` install `node` with `brew`.
+
+``` bash
+brew install node@24
+```
+
 Start nvim and issue the following commands.
 
 ``` bash
