@@ -33,3 +33,13 @@ Start nvim and issue the following commands.
 Enjoy.
 
 ![nvim](/images/nvim.JPG)
+
+You may also want to install `Coc` plugins for yaml and other stuff.
+
+Open neovim and inssue the commands.
+
+``` bash
+:CocInstall coc-rust-analyzer
+:CocInstall coc-yaml
+:CocInstall coc-toml
+```
